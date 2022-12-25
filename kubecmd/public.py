@@ -1,0 +1,6 @@
+from kubecmd import dal
+
+get_system_application_by_id = dal.get_application_by_id
+get_system_application_with_config = dal.get_application_with_config
+get_system_application_in_queue_by_app_type = dal.get_system_application_in_queue_by_app_type
+set_systen_app_in_queue_with_name_and_type = dal.set_app_name_and_type_for_system_application_in_queue
